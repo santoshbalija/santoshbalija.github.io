@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Balija Santoshkumar</title>
+<meta http-equiv="refresh" content="5;url=/">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f2f0ec;
+  --ink: #1a2218;
+  --ink-mid: #3d4a3a;
+  --ink-mute: #7a8575;
+  --accent: #2d4a2a;
+  --serif: 'Cormorant Garamond', serif;
+  --mono: 'DM Mono', monospace;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  text-align: center;
+  padding: 3rem;
+}
+.code {
+  font-family: var(--mono);
+  font-size: 6rem;
+  font-weight: 300;
+  color: var(--ink);
+  opacity: 0.12;
+  line-height: 1;
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+.heading {
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+.sub {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 2.5rem;
+}
+.link {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--ink);
+  padding: 0.65rem 1.5rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.link:hover { background: var(--accent); }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=DM+Sans:wght@400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="code">404</div>
+    <h1 class="heading">Page not found</h1>
+    <p class="sub">Redirecting to home in 5 seconds</p>
+    <a class="link" href="/">Back to home →</a>
+  </div>
+</body>
+</html>
